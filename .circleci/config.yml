@@ -56,11 +56,11 @@ jobs:
           paths:
             - project
             - test
-  01-Authenticate-RS256:
+  01-Authorization-RS256:
     machine: true
     environment:
-      - AUTH0_CFG: 01-Authenticate-RS256
-      - SAMPLE_PATH: 01-Authenticate-RS256
+      - AUTH0_CFG: 01-Authorization-RS256
+      - SAMPLE_PATH: 01-Authorization-RS256
     <<: *defaults
 workflows:
   version: 2
@@ -68,7 +68,7 @@ workflows:
     jobs:
       - checkout:
           context: Quickstart API Tests
-      - 01-Authenticate-RS256:
+      - 01-Authorization-RS256:
           context: Quickstart API Tests
           requires:
             - checkout
