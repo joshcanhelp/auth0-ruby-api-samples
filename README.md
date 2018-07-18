@@ -1,6 +1,6 @@
 # Auth0 Ruby API Samples
 
-[![CircleCI](https://img.shields.io/circleci/project/github/auth0-samples/auth0-python-api-samples.svg?style=flat-square)](https://circleci.com/gh/auth0-samples/auth0-python-api-samples/tree/master)
+[![CircleCI](https://img.shields.io/circleci/project/github/auth0-samples/auth0-ruby-api-samples.svg?style=flat-square)](https://circleci.com/gh/auth0-samples/auth0-ruby-api-samples/tree/master)
 
 These samples demonstrate how to create an API with Ruby which only permits access to resources if a valid **access token** is included. This verification is done by validating the signature and claims in a JSON Web Token (JWT) signed by Auth0.
 
