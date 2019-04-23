@@ -6,7 +6,7 @@ GEM
     builder (3.2.2)
     coderay (1.1.1)
     dotenv (2.2.1)
-    ffi (1.9.14)
+    ffi (1.9.24)
     formatador (0.2.5)
     guard (2.14.0)
       formatador (>= 0.2.4)
@@ -43,7 +43,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (1.6.4)
+    rack (1.6.11)
     rack-protection ~> 1.5.5
       rack
     rack-test (0.6.3)
